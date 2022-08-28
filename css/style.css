@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  background-color: aqua;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:active {
+  color: white;
+}
+
+i {
+  color: rgb(22, 89, 190);
+}
+
+.banner {
+  position: absolute;
+  color: #fff;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner {
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+/* container */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: blue;
+}
+/* goal */
+.goal,
+.team,
+.timeline,
+.primary,
+.scope {
+  background-color: rgb(206, 238, 247);
+  border: 1px solid white;
+  margin: 5px;
+}
+
+.li-icon {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.scopes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* team */
+/* .goal {
+  grid-column-start: 1;
+  grid-column-end: 3;
+} */
+.timeline {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+svg {
+  height: auto;
+  width: 30px;
+  color: blue;
+  text-align: center;
+  /* margin: 10px; */
+}

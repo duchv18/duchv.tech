@@ -1,0 +1,184 @@
+@media only screen and (max-width: 600px) {
+  .name {
+    display: none;
+  }
+  /* phần navbar */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border: 1px;
+  }
+  .navbar > * {
+    padding: 10px;
+  }
+  .name-nav {
+    display: none;
+  }
+
+  /* information */
+  .like {
+    display: block;
+    /* grid-template-columns: 50% 50%; */
+    align-items: center;
+    /* grid-template-columns: 300px 500px;
+    column-gap: 50px;
+
+    margin-top: 40px; */
+  }
+  #target {
+    padding: 10px;
+    margin: 10px;
+  }
+  #personal-info {
+    padding: 10px;
+    margin: 10px;
+  }
+  /* thong tin nghe nghiep */
+  .container1 {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 15px;
+  }
+  .kinhnghiem,
+  .hocvan,
+  .hoatdong,
+  .sothich,
+  .ngonngu,
+  .kynang {
+    padding-top: 10px;
+  }
+
+  .k-6 {
+    margin-left: 10px;
+    background-color: rgb(29, 189, 230);
+    font-style: italic;
+    border-radius: 8px;
+    border-color: #199cdb;
+  }
+
+  .nam {
+    background-color: #199cdb;
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: #199cdb;
+  }
+
+  .mb {
+    justify-content: space-around;
+    margin: 0% 20%;
+    display: flex;
+  }
+
+  /* icon trong container 1 */
+  .ic-toolbox,
+  .ic-telescope,
+  .ic-pencil,
+  .ic-mic,
+  .ic-tools-2 {
+    transform: scale(2);
+  }
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon,
+  .ic-basket {
+    border: 1px solid rgb(29, 189, 230);
+    color: rgb(29, 189, 230);
+    border: 1px solid rgb(29, 189, 230);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  table {
+    font-weight: normal;
+  }
+
+  /* ngonngu */
+  .p-1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .p-2 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .p-3 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-2 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-3 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .g-1 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  /* chungchi */
+  .chung-chi p {
+    font-weight: normal;
+  }
+  .chung-chi img {
+    margin-left: 20%;
+  }
+  /* footer */
+  .lien-he {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px 50px;
+    gap: 20px;
+    background-color: #dfdfdf;
+    border-width: 100%;
+    font-size: 100%;
+  }
+  .icon-facebook-circled {
+    font-size: auto;
+  }
+  .icon-linkedin-circled {
+    font-size: auto;
+  }
+  .icon-github-circled {
+    font-size: auto;
+  }
+  /* .section-title {
+    padding: -20px;
+  } */
+}

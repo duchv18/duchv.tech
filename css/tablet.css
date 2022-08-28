@@ -1,0 +1,231 @@
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  /* img banner */
+  .name {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    /* background-color: red; */
+  }
+  .img {
+    width: 100%;
+    /* padding-left: 75px; */
+  }
+  .name span {
+    font-size: 12px;
+  }
+
+  .job {
+    font-size: 20px;
+    transform: translate(150px, -50%);
+    margin: 20px;
+  }
+  /* phần navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .name-nav {
+    display: none;
+  }
+
+  /* information */
+  .like {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    /* grid-template-columns: 300px 500px;
+    column-gap: 50px;
+    margin-top: 40px; */
+  }
+  #personal-info {
+    margin-left: 50px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 400px;
+  }
+  #target {
+    /* margin-left: 50%; */
+    display: grid;
+    grid-template-columns: 400px;
+  }
+
+  /* phần Thông tin nghề nghiệp */
+  /* kinh nghiệm */
+  .container1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: flex-start;
+  }
+  .k-6 {
+    margin-left: 10px;
+    background-color: rgb(29, 189, 230);
+    font-style: italic;
+    border-radius: 8px;
+    border-color: #199cdb;
+  }
+
+  .nam {
+    background-color: #199cdb;
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: #199cdb;
+  }
+
+  .mb {
+    justify-content: space-around;
+    margin: 0% 20%;
+    display: flex;
+  }
+
+  /* icon container1 */
+  .ic-toolbox,
+  .ic-telescope,
+  .ic-pencil,
+  .ic-mic,
+  .ic-tools-2 {
+    transform: scale(2);
+  }
+  .ic-megaphone,
+  .ic-strategy,
+  .ic-hotairballoon,
+  .ic-basket {
+    border: 1px solid rgb(29, 189, 230);
+    color: rgb(29, 189, 230);
+    border: 1px solid rgb(29, 189, 230);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  .p-1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .p-2 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .p-3 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-2 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .n-3 {
+    background: #727e84;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    margin-top: 10px;
+  }
+  .g-1 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+
+  /* chunhchi */
+  .chung-chi {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .chung-chi p {
+    font-weight: normal;
+  }
+
+  table {
+    font-weight: normal;
+  }
+
+  /* footer */
+  .lien-he {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px 50px;
+    gap: 20px;
+    background-color: #dfdfdf;
+    border-width: 100%;
+    font-size: 100%;
+  }
+  .icon-facebook-circled {
+    font-size: auto;
+  }
+  .icon-linkedin-circled {
+    font-size: auto;
+  }
+  .icon-github-circled {
+    font-size: auto;
+  }
+}
